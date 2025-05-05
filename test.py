@@ -1,8 +1,4 @@
-from PIL import Image
-from realesrgan import RealESRGAN
 import torch
+import realesrgan
 
-
-class Upscaler():
-    def __init__(self,listPhotos):
-        self.images = listPhotos
+print(realesrgan.__version__)
